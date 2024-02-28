@@ -1,0 +1,85 @@
+/* styles.css */
+.popup {
+    position: relative;
+    top: -3vh;
+    left: 12vh;
+    width: 10px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background-color: #fff;
+    /* max-width: 200px; */
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+#verify567{
+    border: 0px solid;
+    color: grey;
+    border-radius: 10px;
+}
+#verify678{
+    border: 0px solid;
+    color: grey;
+    border-radius: 10px;
+}
+#addemployee45{
+    background-color: #0097e800;
+}
+#editEmployee45{
+    position: relative;
+    left: -2vh;
+    background-color: #f7f8fa00;
+}
+#updateButton89{
+    position: relative;
+    top: 3vh;
+    left: 15vh;
+}
+#on-date4564{
+    border: 0px solid;
+    border-radius: 10px;
+    background-color: #0097e800;
+    color: white;
+}
+#view-task567{
+    background-color: #e4e4f100;
+    color: #78829d;
+    font-size: small;
+    border: 0px solid;
+    border-radius: 10px;
+    font-weight: 500;
+}
+#view-task-button67{
+    background-color: #f8f9fa;
+    border: 0px solid;
+    border-radius: 10px;
+    max-width: 70px;
+}
+.sd-text__content {
+    position: relative;
+}
+
+.sd-input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: static;
+    width: 100%;
+    box-sizing: border-box;
+    padding: calc(1.5 * var(--sjs-base-unit, var(--base-unit, 8px))) calc(2 * var(--sjs-base-unit, var(--base-unit, 8px)));
+    line-height: calc(1.5 * var(--sjs-font-editorfont-size, calc(1 * var(--sjs-font-size, var(--sjs-font-size, 16px)))));
+    font-family: var(--sjs-font-editorfont-family, var(--font-family));
+    font-weight: var(--sjs-font-editorfont-weight, 400);
+    color: var(--sjs-font-editorfont-color, var(--sjs-general-forecolor, rgba(0, 0, 0, 0.91)));
+    font-size: var(--sjs-font-editorfont-size, calc(1 * var(--sjs-font-size, var(--sjs-font-size, 16px))));
+    background-color: var(--sjs-editorpanel-backcolor, var(--sjs-editor-background, var(--sjs-general-backcolor-dim-light, var(--background-dim-light, #f9f9f9))));
+    box-shadow: var(--sjs-shadow-inner, inset 0px 1px 2px 0px rgba(0, 0, 0, 0.15));
+    border: none;
+    border-radius: var(--sjs-editorpanel-cornerRadius, var(--sjs-corner-radius, 4px));
+    text-align: start;
+}
